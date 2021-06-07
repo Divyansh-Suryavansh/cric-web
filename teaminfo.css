@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+
+#team-info{
+    display: flex;
+    background: linear-gradient(to right, #f7971e, #ffd200);
+    width: 95%;
+    margin: 2rem auto;
+    max-height: 320px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 3px 3px  6px  #807276;
+}
+
+.team-image{
+       width: 100%;
+       height: 100%;
+       box-sizing: border-box;
+       border-top-left-radius: 20px;
+       border-bottom-right-radius: 20px;
+}
+
+.team-image-wrap{
+    width: 50%;
+   box-shadow: 4px 4px 3px #641e37;
+    box-sizing: border-box;
+    margin: 10px 0;
+    margin-left: 10px;
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.team-detail-wrap{
+    margin-left: 20px;
+}
+
+.team-name{
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    background: linear-gradient(to right, #c0392b, #8e44ad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.other-details{
+   
+    width: 70%;
+}
+
+.other-details p{
+    font-weight: 600;
+    color: rgb(66, 60, 60) ;
+   
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.card-details h5{
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to right, #1d2b64, #f8cdda);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3rem;
+}
+
+.card-details p{
+    font-weight: 600;
+    color: #641e37;
+ 
+}

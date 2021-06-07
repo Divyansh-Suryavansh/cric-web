@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./card.css">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="./add-form.css">
+        <link rel="stylesheet" href="./teaminfo.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+       crossorigin="anonymous">
+    </script> 
+    </head>
+    <body>
+        <nav id="navbar" class="flex-props">
+            <div id="website-logo">
+                <a href="./index.html"><img src="./logo-removebg-preview.png" alt="website-logo"></a>
+            </div> 
+            <div id="nav-wrapper" class="flex-props">
+                <div id="search-opt">
+                    <input type="text" id="search-input" placeholder="Search player by team name...">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <div id="team-add-btn" class="flex-props"><i class="fas fa-plus add-icon"></i><div id="add-title"><p>Add Team or Player</p></div></div>
+            </div>
+        </nav>
+
+        <div class="web-content">
+            <div class="form-wrapper">
+                <form action="" id="player-form">
+              
+                  <label for="pname">Player name :</label>
+                  <input type="text" id="pname" name="name" placeholder="Player's name" class="player-in">
+              
+                  <label for="pprice">Price :</label>
+                  <input type="text" id="pprice" name="price" placeholder="Player's selling price.." class="player-in">
+  
+                  <label for="pteam">Team :</label>
+                  <input type="text" id="pteam" name="team" placeholder="Player's team.." class="player-in">
+                   
+                  <p>Primary role : </p>
+                  <input type="radio" id="batsman" name="role" value="batsman">
+                    <label for="batsman">Batsman</label>
+                 <input type="radio" id="bowler" name="role" value="bowler">
+                     <label for="bowler"> Bowler</label>
+                 <input type="radio" id="all-rounder" name="role" value="all-rounder">
+                      <label for="all-rounder">All-rounder</label>
+                       
+                      <p>Player's playing status :</p>
+                      <input type="radio" id="true" name="stat" value="true">
+                      <label for="true">True</label>
+                   <input type="radio" id="false" name="stat" value="false">
+                       <label for="false">False</label>
+                   
+                  
+              
+                  <input type="submit" value="Submit" class="sub-btn" id="sub">
+              
+                </form>
+              </div>        
+        </div>
+
+        <footer>
+            <div class="footer-titles">
+                <div class="link-heads">Quicklinks</div>
+                <div class="links-opt">News</div>
+                <div class="links-opt">Videos</div>
+                <div class="links-opt">Venues</div>
+                <div class="links-opt">Stats</div>
+                <div class="links-opt">Archive</div>
+            </div>
+            <div class="footer-titles">
+                <div class="link-heads">Quicklinks</div>
+                <div class="links-opt">News</div>
+                <div class="links-opt">Videos</div>
+                <div class="links-opt">Venues</div>
+                <div class="links-opt">Stats</div>
+                <div class="links-opt">Archive</div>
+            </div>
+            <div class="footer-titles">
+                <div class="link-heads">Quicklinks</div>
+                <div class="links-opt">News</div>
+                <div class="links-opt">Videos</div>
+                <div class="links-opt">Venues</div>
+                <div class="links-opt">Stats</div>
+                <div class="links-opt">Archive</div>
+            </div>
+            <div class="footer-titles">
+                <div class="link-heads">Quicklinks</div>
+                <div class="links-opt">News</div>
+                <div class="links-opt">Videos</div>
+                <div class="links-opt">Venues</div>
+                <div class="links-opt">Stats</div>
+                <div class="links-opt">Archive</div>
+            </div>
+            <script src="./index.js"></script>     
+    </footer>
+</body>
+</html>

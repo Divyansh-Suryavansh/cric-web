@@ -1,0 +1,46 @@
+
+.form-wrapper{
+    display: block;
+}
+#player-form{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 70%;
+    padding: 20px ;
+    margin: 0 auto;
+    background-color: #5e1e33;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+#player-form label{
+    color: #fff;
+    padding: 5px;
+}
+
+#player-form p{
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.player-in{
+    border-radius: 20px;
+    color: #5e1e33;
+    height: 30px;
+}
+
+#player-form input:focus{
+    outline: none;
+}
+
+.sub-btn{
+    background-color: #fff;
+    color: #5e1e33;
+    font-weight: 800;
+    border-radius: 20px;
+    width: 40%;
+}
